@@ -1,0 +1,8 @@
+{
+  "name": "Electro Servicios Quisqueya",
+  "description": "Professional industrial electrical engineering firm specializing in maintenance, repairs, and power systems compliance with ISO 9001 and IEEE standards.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
