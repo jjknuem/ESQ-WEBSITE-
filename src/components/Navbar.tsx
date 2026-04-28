@@ -19,6 +19,7 @@ const navigation = [
       { name: "Mantenimiento Preventivo", href: "/servicios/mantenimiento" },
       { name: "Reparaciones Técnicas", href: "/servicios/reparaciones" },
       { name: "Análisis y Pruebas", href: "/servicios/pruebas" },
+      { name: "Sistemas de Potencia", href: "/servicios/potencia" },
       { name: "Consultoría Técnica", href: "/servicios/consultoria" },
     ],
   },

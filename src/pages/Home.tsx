@@ -11,8 +11,8 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-brand-black/70 z-10" />
           <img
-            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop"
-            alt="Mantenimiento Industrial Eléctrico"
+            src="/motor3-960x680.jpg"
+            alt="Motor Industrial"
             className="w-full h-full object-cover"
           />
         </div>
@@ -95,8 +95,8 @@ export default function Home() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl relative z-10 border-8 border-slate-50">
               <img
-                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop"
-                alt="Generador Eléctrico Industrial"
+                src="/GLP1-g2_hv_motor_02-640w.jpg"
+                alt="Motor Industrial de Alta Tensión"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -139,7 +139,7 @@ export default function Home() {
                 icon: Zap, 
                 title: "Sistemas de Potencia", 
                 desc: "Sincronización de plantas y transferencias automáticas.",
-                href: "/servicios/mantenimiento",
+                href: "/servicios/potencia",
                 color: "text-brand-blue"
               },
               { 

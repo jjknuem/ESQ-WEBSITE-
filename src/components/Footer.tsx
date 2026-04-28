@@ -34,6 +34,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li><Link to="/identidad/trayectoria" className="text-slate-400 hover:text-brand-blue flex items-center gap-2 transition-colors"><ArrowRight className="w-3 h-3 text-brand-red" /> Nuestra Trayectoria</Link></li>
               <li><Link to="/servicios/mantenimiento" className="text-slate-400 hover:text-brand-blue flex items-center gap-2 transition-colors"><ArrowRight className="w-3 h-3 text-brand-red" /> Mantenimiento Preventivo</Link></li>
+              <li><Link to="/servicios/potencia" className="text-slate-400 hover:text-brand-blue flex items-center gap-2 transition-colors"><ArrowRight className="w-3 h-3 text-brand-red" /> Sistemas de Potencia</Link></li>
               <li><Link to="/calidad" className="text-slate-400 hover:text-brand-blue flex items-center gap-2 transition-colors"><ArrowRight className="w-3 h-3 text-brand-red" /> Calidad & Cumplimiento</Link></li>
               <li><Link to="/contacto" className="text-slate-400 hover:text-brand-blue flex items-center gap-2 transition-colors"><ArrowRight className="w-3 h-3 text-brand-red" /> Solicitar Cotización</Link></li>
             </ul>
