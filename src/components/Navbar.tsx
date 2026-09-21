@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown, Phone, MapPin, Mail, Zap } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { cn } from "@/src/lib/utils";
+import { LogoEmblem } from "@/src/components/Logo";
 
 const navigation = [
   { name: "Inicio", href: "/" },
@@ -48,10 +49,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="relative group">
-                <div className="w-12 h-12 bg-white flex items-center justify-center rounded-lg shadow-sm border border-slate-100 overflow-hidden p-1">
-                  <img src="/descarga.png" alt="Logo" className="w-full h-full object-contain" />
+            <Link to="/" className="flex items-center gap-3 group">
+              <div className="relative">
+                <div className="h-12 w-auto bg-white flex items-center justify-center rounded-lg shadow-sm border border-slate-100 overflow-hidden px-2 py-1 transition-transform group-hover:scale-105">
+                  <LogoEmblem className="h-9 w-auto max-w-[130px] object-contain" />
                 </div>
               </div>
               <div className="flex flex-col leading-tight">
@@ -59,7 +60,7 @@ export default function Navbar() {
                   ELECTRO SERVICIOS
                 </span>
                 <span className="text-brand-blue text-[10px] font-black tracking-[0.2em] uppercase">
-                  Quisqueya
+                  Quisqueya S.R.L.
                 </span>
               </div>
             </Link>

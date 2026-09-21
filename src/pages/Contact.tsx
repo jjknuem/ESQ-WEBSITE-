@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Send, MessageCircle, Clock, Building2 } from "lucide-react";
+import { Mail, Phone, MapPin, Send, MessageCircle, Clock } from "lucide-react";
 import { cn } from "@/src/lib/utils";
+import InteractiveMap from "@/src/components/InteractiveMap";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -79,8 +80,8 @@ export default function Contact() {
                   <MapPin className="w-5 h-5 text-brand-red" />
                 </div>
                 <div>
-                  <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Nueva Sede</p>
-                  <p className="font-black text-sm leading-tight tracking-tight">Marginal de Las Americas km 12 1/2, Los Frailes 2do, Sto. Dom. Este, R.D.</p>
+                  <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Sede Central</p>
+                  <p className="font-black text-sm leading-tight tracking-tight">Calle Francisco A. Camaño Deño 10, Santo Domingo Este 11905, R.D.</p>
                 </div>
               </div>
 
@@ -197,7 +198,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Section Placeholder */}
+      {/* Interactive Google Map Section */}
       <section className="section-container">
         <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-4">
           <div>
@@ -206,17 +207,11 @@ export default function Contact() {
               Sede Central Santo Domingo
             </h3>
           </div>
-          <p className="text-slate-400 font-bold flex items-center gap-2">
-            <MapPin className="w-5 h-5 text-brand-red" /> Los Frailes, Santo Domingo Este
+          <p className="text-slate-500 font-bold flex items-center gap-2 text-sm">
+            <MapPin className="w-5 h-5 text-brand-red shrink-0" /> Calle Francisco A. Camaño Deño 10, Santo Domingo Este 11905
           </p>
         </div>
-        <div className="w-full h-96 bg-slate-200 rounded-3xl overflow-hidden shadow-inner relative flex items-center justify-center border-2 border-slate-100">
-           <div className="text-center p-8 bg-white/80 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-100">
-              <Building2 className="w-12 h-12 text-brand-blue mx-auto mb-4" />
-              <p className="text-brand-black font-black uppercase tracking-tight">Interactivo Google Maps</p>
-              <p className="text-xs text-slate-400 font-bold mt-1 uppercase tracking-widest">Marginal de Las Américas km 12 1/2</p>
-           </div>
-        </div>
+        <InteractiveMap />
       </section>
     </div>
   );

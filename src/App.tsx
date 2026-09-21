@@ -72,7 +72,7 @@ export default function App() {
               title="Análisis y Pruebas"
               subtitle="Diagnósticos avanzados bajo normativas IEEE."
               icon={Shield}
-              image="/Senales-Criticas-Generadores-Industriales-20251119070206.png"
+              image="/insp esq.jpg"
               description="Nuestros expertos utilizan tecnología de punta para realizar diagnósticos precisos que permiten determinar la vida útil restante de sus activos eléctricos y evitar paros costosos."
               features={[
                 "Análisis de respuesta en frecuencia (SFRA).",
@@ -95,7 +95,7 @@ export default function App() {
               title="Sistemas de Potencia"
               subtitle="Ingeniería avanzada en control, sincronización y transferencia de energía."
               icon={Zap}
-              image="https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80&w=2070"
+              image="/TRANSFORMADORES.png"
               description="Especialistas en la integración de soluciones críticas de energía. Diseñamos y ejecutamos sistemas de sincronismo para múltiples generadores y transferencias automáticas de alta disponibilidad para garantizar que su operación nunca se detenga."
               features={[
                 "Sincronización de múltiples plantas eléctricas.",
@@ -118,7 +118,7 @@ export default function App() {
               title="Consultoría Técnica"
               subtitle="Ingeniería avanzada para optimización de sistemas."
               icon={Zap}
-              image="https://images.unsplash.com/photo-1454165833767-027ffcb99c33?auto=format&fit=crop&q=80&w=2070"
+              image="/consulta.jpg"
               description="Brindamos asesoría estratégica para el diseño, dimensionamiento y optimización de infraestructuras eléctricas industriales, asegurando eficiencia energética y cumplimiento normativo."
               features={[
                 "Estudios de cortocircuito y coordinación de protecciones.",

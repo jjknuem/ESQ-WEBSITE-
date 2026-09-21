@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { ArrowRight, CheckCircle2, Shield, Zap, Settings, Award, Cpu, BookOpen, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/src/lib/utils";
+import Logo from "@/src/components/Logo";
 
 export default function Home() {
   return (
@@ -25,11 +26,9 @@ export default function Home() {
             className="max-w-3xl"
           >
             <div className="mb-8">
-              <img 
-                src="/descarga.png" 
-                alt="Electro Servicios Quisqueya Logo" 
-                className="h-24 md:h-32 w-auto bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/20"
-              />
+              <div className="inline-block bg-white p-3 sm:p-4 rounded-2xl shadow-2xl border border-white/30 backdrop-blur-sm">
+                <Logo className="h-20 sm:h-24 md:h-28 w-auto" />
+              </div>
             </div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-brand-red text-white text-xs font-black tracking-widest uppercase mb-6 shadow-lg shadow-red-500/20">
               <Award className="w-4 h-4" /> Certificación ISO 9001:2015
@@ -95,9 +94,9 @@ export default function Home() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl relative z-10 border-8 border-slate-50">
               <img
-                src="/GLP1-g2_hv_motor_02-640w.jpg"
-                alt="Motor Industrial de Alta Tensión"
-                className="w-full h-full object-cover"
+                src="/FAMILIA ESQ.jpg"
+                alt="Familia y Equipo Electro Servicios Quisqueya"
+                className="w-full h-full object-cover object-center"
               />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-brand-black p-8 rounded-2xl text-white shadow-2xl hidden md:block z-20 border-b-8 border-brand-red">
