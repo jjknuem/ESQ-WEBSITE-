@@ -58,7 +58,7 @@ export default function Quality() {
           <div className="order-1 lg:order-2">
             <div className="bg-white p-4 rounded-3xl shadow-2xl border border-slate-100">
               <div className="aspect-[4/3] bg-slate-100 rounded-2xl flex items-center justify-center overflow-hidden border border-slate-200">
-                <img src="https://www.emagister.com/es/albums/3/5/3/8/4/xxl_cropped_234baf84a8b0a80048574a3494025ce8.jpg" alt="Control de Calidad Técnico Electromecánico" className="w-full h-full object-cover" />
+                <img src="/EASA FOTO.jpg" alt="Miembro Activo EASA - Calidad y Cumplimiento" className="w-full h-full object-cover object-center" />
               </div>
             </div>
           </div>

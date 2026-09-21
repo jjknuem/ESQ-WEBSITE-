@@ -85,7 +85,7 @@ export default function AboutUs() {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100">
-              <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=2070" alt="Mantenimiento de motor industrial" className="w-full h-full object-cover" />
+              <img src="/CAPITAL HUMANO.jpg" alt="Nuestro Capital Humano" className="w-full h-full object-cover object-center" />
             </div>
           </div>
           <div className="lg:w-1/2">
@@ -93,14 +93,10 @@ export default function AboutUs() {
             <p className="text-slate-600 mb-8 leading-relaxed text-lg font-medium">
               Creemos que la tecnología es tan efectiva como la mano que la opera. Por eso, nuestros técnicos no solo son operarios; son expertos certificados que comprenden el impacto de su trabajo.
             </p>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="p-5 border-l-4 border-brand-red bg-slate-50 rounded-r-xl">
+            <div>
+              <div className="inline-block p-5 border-l-4 border-brand-red bg-slate-50 rounded-r-xl">
                 <p className="text-3xl font-black text-brand-blue">100%</p>
                 <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Certificados IEEE</p>
-              </div>
-              <div className="p-5 border-l-4 border-brand-blue bg-slate-50 rounded-r-xl">
-                <p className="text-3xl font-black text-brand-black">0%</p>
-                <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Accidentalidad</p>
               </div>
             </div>
           </div>
